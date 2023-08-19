@@ -1,0 +1,158 @@
+/* generics */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+/* btn wsp */
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}
+/* navbar */
+.titNav {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.navbarBG {
+    background: #ffffff80;
+}
+
+
+/* portada */
+
+
+
+/* carousel */
+.h5Carousel {
+    color:#ffffd5;
+}
+
+.textCarousel {
+    background-color: #ffffff30;
+    border-radius: 0px;
+    /* position: absolute; */
+    height: 80%;
+}
+
+.pCarousel {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4rem;
+    color: black;
+    margin-top: -90px;
+    
+}
+
+
+.containerCarousel {
+    margin-top:130px;
+    background-color: #5a5a62;    
+}
+
+.logoCarousel {
+    width:50%;
+}
+
+/* servicios */
+
+.serviciosContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.animatedBox {
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.animado {
+    opacity: 0;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Formulario */
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+  background-color: #ec8800;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffa424;
+}
+
